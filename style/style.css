@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #e06c73;
+    position: relative;
+    height: 100vh;
+}
+video {
+    width: 100%;
+    position: fixed;
+    margin: 0%;
+}
+
+
+
+main>a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #d22e60;
+    border: 3px #d22e60 solid;
+    border-radius: 50px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+    padding: 10px 30px;
+
+    font-size: 16pt;
+    letter-spacing: 2px;
+}
+
+svg {
+    position: fixed;
+    z-index: 1000;
+    margin: 25px;
+    transition: 0.4s;
+    transform: rotate(0deg);
+
+}
+
+.MenuAvant{
+    height: 100vh;
+    width: 20%;
+    background: #23353d;
+    position: fixed;
+    z-index: 1000;
+    transition: 0.4s;
+    transform: translateX(-100%);
+    
+}
+
+.mm>a{
+    display: block;
+    margin: 35px;
+    text-decoration: none;
+    color: #d22e60;
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+.mm{
+    margin: 150px auto;
+    width: 75%;
+}
+
+.reseaux {
+    width: 65%;
+    margin:500px auto 30px auto;
+    
+    text-align: center;
+}
+
+.fb{
+    margin-left: 35px;
+    
+}
+
+
+.SP{
+    margin-left: 35px;
+}
+
+.MenuApres{
+    
+    transform: translateX(0);
+}
+ 
+
+.noir{
+    position: absolute;
+    stroke: white;
+   transform: rotate(90deg);
+}
+
+.copyright{
+    color: #d22e60;
+    margin-left: 50px;
+}
