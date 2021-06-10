@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    cursor: url('POINTEUR  CLAIR.png'), pointer;
     
 }
 
@@ -21,7 +22,7 @@ video {
 
 
 
-main>a {
+.bouton {
     font-weight: bold;
     text-decoration: none;
     color: #d22e60;
@@ -31,6 +32,13 @@ main>a {
     cursor: url("SELECTEUR REMPLIE CLAIR.png"), pointer;
     font-size: 16pt;
     letter-spacing: 2px;
+}
+
+.bouton:hover {
+    border: 3px solid #ca4d73;
+    transition: 1s;
+    background: #ca4d73;
+    color: #fff;
 }
 
 svg {
@@ -62,6 +70,7 @@ svg {
     color: #d22e60;
     font-size: 18pt;
     font-weight: bold;
+    cursor: url('SELECTEUR REMPLIE CLAIR.png'), pointer;
 }
 
 .mm{
@@ -72,18 +81,23 @@ svg {
 .reseaux {
     width: 65%;
     margin:400px auto 30px auto;
-    
     text-align: center;
 }
 
 .fb{
     margin-left: 35px;
+    cursor: url('SELECTEUR REMPLIE CLAIR.png'), pointer;
     
 }
 
 
 .SP{
     margin-left: 35px;
+    cursor: url('SELECTEUR REMPLIE CLAIR.png'), pointer;
+}
+
+.is {
+    cursor: url('SELECTEUR REMPLIE CLAIR.png'), pointer;
 }
 
 .MenuApres{
