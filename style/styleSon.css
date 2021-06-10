@@ -68,6 +68,13 @@ video {
     margin-top: 30vh;
 }
 
+.bouton:hover {
+    border: 3px solid #ca4d73;
+    transition: 1s;
+    background: #ca4d73;
+    color: #fff;
+}
+
 
 .bleu{
    margin: 35% auto 175px auto;                                             /**Vidéo de concert**/
