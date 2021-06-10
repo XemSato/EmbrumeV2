@@ -1,20 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 
-.body{
+body {
     margin: 0;
-   
-    background-color: #23353d;
-}
-
-.body2{
-    margin: 0;
-   filter: invert(1);
-    background-color: #23353d;
-}
-
-.html {
     
+    background-color: #23353d;
+}
+
+html {
     height: 100%;
     font-family: 'Quicksand', sans-serif;
   }

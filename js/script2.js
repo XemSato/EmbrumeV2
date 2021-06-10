@@ -43,8 +43,8 @@ document.querySelectorAll(".play>svg").forEach(e=>{
 })
 
 
-
-/* TROOOOOOLLLLL */
+//
+-/* TROOOOOOLLLLL */
 document.querySelector("main>h1>span").addEventListener("click",troll)
 
 function troll(){
@@ -103,3 +103,6 @@ ______________________________¶¶¶¶¶¶<br>
 
 
 console.log("Il semblerait que pikachu se cache sur cette page !")
+
+
+
