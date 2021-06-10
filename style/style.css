@@ -1,35 +1,46 @@
+
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    
+    font-family: century;
+    overflow: hidden;
 }
 
 main {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    color: #e06c73;
-    position: relative;
-    height: 100vh;
 }
+
 video {
     width: 100%;
-    position: fixed;
+    position: absolute;
     margin: 0%;
 }
 
+.titre {
+    position: relative; 
+    z-index: 1000;
+    margin: 275px auto;
+    width: 75%;
+    text-align: center;
+    color: #ffed00;
+    transform: translateX(-13%);
 
+}
 
-main>a {
-    font-weight: bold;
+.titre>h1 {
+    font-weight: lighter;
+    font-size: 40pt;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+}
+
+.titre>a {
     text-decoration: none;
-    color: #d22e60;
-    border: 3px #d22e60 solid;
-    border-radius: 50px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+    color: #ffed00;
+    border: 2px #ffed00 solid;
+    border-radius: 50px;
     padding: 10px 30px;
-
+    font-weight: lighter;
     font-size: 16pt;
     letter-spacing: 2px;
 }
@@ -46,8 +57,8 @@ svg {
 .MenuAvant{
     height: 100vh;
     width: 20%;
-    background: #23353d;
-    position: fixed;
+    background: #ffed00;
+    position: relative;
     z-index: 1000;
     transition: 0.4s;
     transform: translateX(-100%);
@@ -58,9 +69,8 @@ svg {
     display: block;
     margin: 35px;
     text-decoration: none;
-    color: #d22e60;
+    color: #000;
     font-size: 18pt;
-    font-weight: bold;
 }
 
 .mm{
@@ -69,35 +79,24 @@ svg {
 }
 
 .reseaux {
-    width: 65%;
-    margin:500px auto 30px auto;
-    
+    width: 75%;
+    margin: 475px auto 30px auto;
+    background:red;
     text-align: center;
 }
 
-.fb{
-    margin-left: 35px;
-    
+.reseaux>a {
+    margin: 20px;
 }
-
-
-.SP{
-    margin-left: 35px;
-}
-
 .MenuApres{
     
-    transform: translateX(0);
+    transform: translateX(0%);
 }
  
 
 .noir{
     position: absolute;
-    stroke: white;
+    stroke: black;
    transform: rotate(90deg);
 }
 
-.copyright{
-    color: #d22e60;
-    margin-left: 50px;
-}
