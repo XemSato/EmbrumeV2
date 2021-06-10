@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+body {
+    margin: 0;
+    
+    background-color: #23353d;
+}
+
+html {
+    height: 100%;
+    font-family: 'Quicksand', sans-serif;
+  }
+
+.body_all{
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Century Gothic", sans-serif;
+    background-size: cover;
+}
+
+
+.logo {
+    margin: 15px 25px 15px 35px;
+    color: #fff;
+}
+
+.logo_middle {
+    margin: 18px auto 18px auto;
+    color: #fff;
+} 
+
+.nav {
+    margin: 25px 35px 25px auto; 
+}
+
+.links {
+    margin-right: 25px;
+    margin-left: 15px;
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.4;
+    font-weight: normal;
+    position: relative;  
+    font-size: 12pt;
+    
+}
+
+.links:hover {
+    font-size: 14pt;
+    opacity: 1;
+    transition: 1s;
+}
+
+.links_opaque {
+    opacity : 1;
+}
+
+
+.header_embrume {
+    width: 100%;
+	z-index: 1000;
+	position: relative;
+    margin: 0px auto;
+    text-align: center;
+    display: flex;
+	
+}
+
+.header_embrume>img {
+    margin-left: 50px;
+}
+
+.nav_embrume{
+    margin: auto;
+    margin-left: 170px;
+    width: 60%; 
+}
+
+.nav_embrume>.links {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    position: relative;  
+    font-size: 16pt;
+    margin: 0 50px;
+}
+main{
+    margin: 12% auto 200% auto;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+h3{
+    margin: 2% auto 10% auto;
+    width: 50%;
+    font-size: 18pt;
+    color: white;
+    font-weight: lighter;
+}
+
+#formulaire {
+    padding: 15px;
+    width: 35%;
+    margin: 40px auto 10px auto;
+    font-family: 'Quicksand';
+}
+
+#formulaire>div {
+    margin-bottom: 20px;
+    color: #858585c5;
+    text-align: center;
+    color: #fff;
+
+}
+
+#formulaire>div>h2 {
+    margin-bottom: 50px;
+    font-size: 26pt;
+    color: #fff;
+}
+
+.info {
+    display: flex;
+    margin-left: 30px;
+    width: 95%;
+    color: #fff;
+
+}
+
+.info>p {
+    margin: 20px 0 20px 30px;
+    transform: translateY(-5px);
+    text-align: left;
+}
+
+.champs {
+    display: block;
+    margin: 20px 0;
+    width: 100%;
+    color: #fff;
+    background:#858585c5;;
+    padding: 7px 5px;
+    border: 0;
+    border-radius: 0;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #fff;
+    opacity: 1;
+    }
+
+.text {
+    display: block;
+    margin: 10px 0 10px 0;
+    width: 100%;
+    color: #fff;
+    background:#858585c5;
+    border: 0;
+    padding: 5px 5px 40px 5px;
+    border-radius: 0;
+}
+
+.bouton {
+    border-radius: 0;
+    background: #858585c5;
+    color: #FFF;
+    padding: 5px;
+    margin-top: 15px;
+    border: #fff solid 1px;
+    cursor: pointer;
+    font-size: 12pt;
+}
+
+.reseaux{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10vh;
+   
+}
+
+.reseaux>a{
+    width: 41px;
+    height: 41px;
+}
+
+.maile{
+    font-size: 26pt;
+    margin-top: 30px;
+}
+
+.vague{
+    margin-left: 32vh;
+    width: 15%;
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+}
+
+.contact2{
+    margin-top: 200px;
+}

@@ -1,0 +1,98 @@
+
+
+video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height:255vh;
+	object-fit: cover;
+	opacity: 0.8;
+}
+
+.playlist{
+    top: 10vh;
+    z-index: 10;
+    position: relative;
+    display: flex;
+    justify-content: center;                                    /**Player des musiques**/
+    align-items: center;
+    color:#fff;
+    font-weight: bold;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+
+.txt{
+    width: 260px;
+}
+
+
+.play{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.play>svg{
+    margin-right: 10px;
+    cursor: pointer;
+}
+.timer{
+    z-index: 10;
+    position: relative;
+    margin-left: 15px;
+    width: 150px;
+}
+
+.bouton {
+    border: 3px solid #d44470;
+    margin: 10px auto 150px auto;
+    display: block;
+    text-align: center;
+    width: 20%;
+    opacity: 0.8;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18pt;
+    color: #d44470;
+    font-weight: bolder;
+    border-radius: 50px;
+    font-family: Helvetica, sans-serif;
+    z-index: 10;
+    position: relative;
+    margin-top: 30vh;
+}
+
+
+.bleu{
+   margin: 35% auto 175px auto;                                             /**Vidéo de concert**/
+   position: relative;
+   width: 63%;
+   display: block;
+
+}
+
+.bleu>iframe {                                                                  
+    display: block;
+    margin: 10px auto;
+    width: 80%;
+    height: 500px;
+}
+
+h1 {
+    margin: 150px auto 25px auto;
+    text-align: center;
+    color: #fff;
+}
+
+h2 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 50px;
+}
+

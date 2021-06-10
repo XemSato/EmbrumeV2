@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+
+
+html {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background-size: cover;
+    display: block;
+    overflow: overlay;
+}
+
+main {
+    
+    position: relative;
+    z-index: 1000;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+    margin-right: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: transparent;
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(#a66269, #1e2c38); 
+    border-radius: 10px;
+    transition: 1s;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(#1e2c38, #a66269);
+  }
+  
+
+.header_embrume {
+    width: 100%;
+	z-index: 1000;
+	position: relative;
+    text-align: center;
+    display: flex;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 4px;
+	
+}
+
+.header_embrume>img {
+    margin-left: 50px;
+}
+
+.nav_embrume{
+    margin: auto;
+    margin-left: 170px;
+    width: 60%; 
+}
+
+.nav_embrume>.links {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    position: relative;  
+    font-size: 15pt;
+    margin: 0 50px 0 30px;
+}
+
+.logo {
+    margin: 15px 25px 15px 35px;
+    color: #fff;
+}
+
+.logo_middle {
+    margin: 18px auto 18px auto;
+    color: #fff;
+} 
+
+.nav {
+    margin: 25px 35px 25px auto; 
+}
+
+.links {
+    margin-right: 25px;
+    margin-left: 15px;
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.4;
+    font-weight: normal;
+    position: relative;  
+    font-size: 12pt;
+    
+}
+
+
+.links:hover {
+    opacity: 1;
+    transition: 1s;
+}
+
+.links_opaque {
+    opacity : 1;
+}
+
+
+
+footer {
+    position: relative; 
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    color: #fff;
+}
+
+footer>p {
+    margin: 10px auto;
+    font-family: Helvetica, sans-serif;
+}
