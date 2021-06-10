@@ -6,8 +6,17 @@ body {
     
     background-color: #23353d;
 }
+.body2{
+    margin: 0;
+   filter: invert(1);
+    background-color: #23353d;
+}
 
-html {
+.html {
+    
+    height: 100%;
+    font-family: 'Quicksand', sans-serif;
+  }
     height: 100%;
     font-family: 'Quicksand', sans-serif;
   }
