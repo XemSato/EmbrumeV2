@@ -5,4 +5,4 @@ function inverse(){
 
 }
 
-console.log("Apparemment les couleurs du site peuvent passer en négatif mais il faut l'acitver !")
+console.log("Apparemment les couleurs du site peuvent passer en négatif mais il faut l'acitver !");
