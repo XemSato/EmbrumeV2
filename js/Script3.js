@@ -1,7 +1,7 @@
 document.querySelector(".vague").addEventListener("click", inverse)
 
 function inverse(){
-    document.querySelector("html").classList.toggle('body2')
+    document.querySelector(".body1").classList.toggle('body2')
 
 }
 
