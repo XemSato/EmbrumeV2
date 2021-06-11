@@ -1,6 +1,8 @@
 
-
-video {
+body{
+    overflow: hidden;
+}
+.video1 {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -77,18 +79,20 @@ video {
 
 
 .bleu{
-   margin: 35% auto 175px auto;                                             /**Vidéo de concert**/
+   margin: 35% auto 115px auto;                                             /**Vidéo de concert**/
    position: relative;
    width: 63%;
    display: block;
 
 }
 
-.bleu>iframe {                                                                  
+.video2{                                                                  
     display: block;
     margin: 10px auto;
-    width: 80%;
-    height: 500px;
+    width: auto;
+    height: auto;
+    position: relative;
+    z-index: 10;
 }
 
 h1 {
